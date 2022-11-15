@@ -120,7 +120,8 @@
     "commentTranslate.multiLineMerge": false,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": false,
-    "editor.quickSuggestionsDelay": 0
+    "editor.quickSuggestionsDelay": 0,
+    "commentTranslate.targetLanguage": "zh-CN"
   },
   "launch": {
     "version": "0.2.0",
