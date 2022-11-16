@@ -30,4 +30,5 @@ int main()
 		else cout << calcu(calcu(b, c, op2), a, op1) << endl;
 	}
 	return 0;
+	
 }
