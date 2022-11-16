@@ -29,6 +29,5 @@ int main()
 			cout << calcu(calcu(a, b, op1), c, op2) << endl;
 		else cout << calcu(calcu(b, c, op2), a, op1) << endl;
 	}
-
 	return 0;
 }
