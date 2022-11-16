@@ -25,4 +25,4 @@
 
 ## 3 balabala
 
-<!-- ![beauty](../assets/beauty.jpg) -->
+![beauty](../assets/beauty.jpg)
