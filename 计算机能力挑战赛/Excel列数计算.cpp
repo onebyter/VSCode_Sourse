@@ -30,6 +30,10 @@ int main()
 	init();
 	int x = change(s);
 	int y = change(t);
-	cout << y - x - 1;
+
+	if (y >= x)
+		cout << y - x - 1;
+	else cout << x - y - 1;
+
 	return 0;
 }
