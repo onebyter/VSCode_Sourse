@@ -119,7 +119,7 @@
     },
     "commentTranslate.multiLineMerge": false,
     "code-runner.saveFileBeforeRun": true,
-    "code-runner.runInTerminal": false,
+    "code-runner.runInTerminal": true,
     "editor.quickSuggestionsDelay": 0,
     "commentTranslate.targetLanguage": "zh-CN"
   },

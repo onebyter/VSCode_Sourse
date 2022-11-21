@@ -92,5 +92,6 @@
   },
   "commentTranslate.targetLanguage": "zh-CN",
   "commentTranslate.source": "Bing",
-  "cmake.configureOnOpen": false
+  "cmake.configureOnOpen": false,
+  "code-runner.runInTerminal": true
 }
