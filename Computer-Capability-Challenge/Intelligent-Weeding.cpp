@@ -19,14 +19,18 @@ int main()
 		}
 	}
 
-	int ans = 0;
+	int maxans = 0, minans = 1e9;
 
 	for ( int i = k; i <= n; i++)
 	{
 		for (int j = k; j <= n; j++)
-			ans = max(ans, a[i][j] - a[i - k][j] - a[i][j - k] + a[i - k][j - k]);
+		{
+			maxans = max(maxans, a[i][j] - a[i - k][j] - a[i][j - k] + a[i - k][j - k]);
+			minans = min(minans, a[i][j] - a[i - k][j] - a[i][j - k] + a[i - k][j - k]);
+		}
+
 	}
 
-	cout << ans;
+	cout << maxans - minans;
 	return 0;
 }
